@@ -1,0 +1,40 @@
+
+
+html {
+    scroll-behavior: auto !important;
+} 
+/* para que JQery se aga cargo del desplazamiento y no me de tirones*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    padding: 80px 0;
+}
+
+h1, h2 {
+    color: #0d6efd; /* azul Bootstrap primary */
+    font-weight: 600;
+}
+
+.img-fluid.rounded-circle {
+    border: 5px solid #0d6efd;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.bg-dark {
+    background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
