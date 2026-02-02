@@ -99,4 +99,30 @@ $('#validacion3').on('input', function(){
 
 
 });
+// --- Manejo del envío del formulario ---
+
+$('form').submit(function(event) {
+    // 1. Evita que la página se recargue
+    event.preventDefault();
+
+    // 2. Verificamos si hay algún campo con error (is-invalid)
+    // O si los campos obligatorios están vacíos
+    let nombre = $('#validacion1').val();
+    let apellido = $('#validacion2').val();
+    let correo = $('#validacion3').val();
+
+    if ($('.is-invalid').length > 0 || nombre === "" || apellido === "" || correo === "") {
+        alert("⚠️ Por favor, corrige los errores en el formulario antes de enviar.");
+    } else {
+        // 3. Si todo está bien, mostramos el éxito
+        alert("✅ ¡Gracias " + nombre + "! Tu mensaje ha sido enviado correctamente.");
+        
+        // 4. Limpiamos el formulario y los colores
+        $(this)[0].reset();
+        $(this).find('.form-control').removeClass('is-valid is-invalid');
+    }
+});
+
+
+
 });
