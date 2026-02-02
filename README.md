@@ -3,7 +3,7 @@
 Este es el proyecto final para el módulo nùmero 2. Consiste en un CV profesional  responsivo, interactivo y con validaciones en tiempo real.
 
 ##  Demo
-Puedes ver el proyecto funcionando aquí: [PEGA AQUÍ TU ENLACE DE GITHUB PAGES]
+Puedes ver el proyecto funcionando aquí: https://sebastiantoledos.github.io/M2-CV/
 
 ## Tecnologías Utilizadas
 * **HTML5:** Estructura semántica.
